@@ -1,0 +1,42 @@
+echo "Enter the first number:"
+read a
+
+echo "Enter the second number:"
+read b
+
+echo "Enter the operator (+, -, *, /):"
+read c
+
+while true
+do
+    case $c in
+        +)
+            add=$(( a + b ))
+            echo "Sum is $add"
+            break
+            ;;
+        -)
+            sub=$(( a - b ))
+            echo "Subtraction result is $sub"
+            break
+            ;;
+        \*)
+            mul=$(( a * b ))
+            echo "Multiplication result is $mul"
+            break
+            ;;
+        /)
+            if [ $b -eq 0 ]; then
+                echo "Error: Division by zero is not allowed."
+            else
+                div=$(( a / b ))
+                echo "Division result is $div"
+            fi
+            break
+            ;;
+        *)
+            echo "Invalid operator. Please enter +, -, *, or /."
+            read c
+            ;;
+    esac
+done

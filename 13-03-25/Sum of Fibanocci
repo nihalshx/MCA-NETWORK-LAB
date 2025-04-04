@@ -1,0 +1,23 @@
+#!/bin/bash
+echo "Enter the number: "
+read num
+a=0
+b=1
+i=1
+sum=0
+count=1
+echo "Fibonacci series up to $num:"
+while [ $count -le $num ]
+do
+
+        echo -n "$a "
+        sum=$((sum + a))
+        next=$((a + b))
+        a=$b
+        b=$next
+        count=$((count + 1))
+
+done
+echo
+echo "The Sum of fibanocci series is $sum"
+~                                            

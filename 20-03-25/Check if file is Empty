@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo "Enter the file name"
+read file_path
+
+
+if [ ! -e "$file_path" ];
+then
+  echo "File does not exist."
+  exit 1
+fi
+
+
+if [ ! -s "$file_path" ];
+then
+  echo "The file is empty"
+else
+  echo "The file is Not empty"
+fi
+

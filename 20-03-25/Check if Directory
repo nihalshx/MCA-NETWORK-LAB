@@ -1,0 +1,10 @@
+#!/bin/bash
+echo " Enter the File name "
+read file_path
+
+if [ -d "$file_path" ];
+then
+  echo "$file_path is a directory"
+else
+  echo "$file_path is Nnot a directory"
+fi

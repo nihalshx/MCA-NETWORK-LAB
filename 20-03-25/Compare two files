@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "enter the first file"
+read file1
+echo "enter the second file"
+read file2
+
+
+if cmp -s "$file1" "$file2"; then
+    echo "The files are identical. Deleting $file2..."
+    rm $file2
+
+else
+    echo "The files are not identical."
+fi
+
+~      

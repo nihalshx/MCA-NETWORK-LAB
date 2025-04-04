@@ -1,0 +1,27 @@
+echo "Enter a number"
+read num
+ch=$num
+temp=$num
+count=0
+arm=0
+while [ $num -gt 0 ]
+do
+        digit=$((num % 10))
+        count=$((count + 1))
+        num=$((num/10))
+done
+
+while [ $temp -gt 0 ]
+do
+        dig=$((temp % 10))
+        arm=$((arm + dig ** count))
+        temp=$((temp/10))
+done
+
+
+if [[ arm -eq ch ]]
+then
+        echo "The number $ch is Armstrong"
+else
+        echo "The number $ch is not Armstrong"
+fi

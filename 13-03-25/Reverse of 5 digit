@@ -1,0 +1,11 @@
+echo "Enter a number:"
+read num
+temp=$num
+rev=0
+while [ $num -gt 0 ]
+do
+    dig=$((num % 10))
+    rev=$((rev * 10 + dig))
+    num=$((num / 10))
+done
+echo "Reversed number is: $rev"
