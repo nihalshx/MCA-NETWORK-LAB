@@ -1,7 +1,11 @@
-# 🚀 MCA-NETWORK-LAB
+<p align="center">
+  <img src="https://img.shields.io/badge/NETWORK-Lab-blue?style=for-the-badge" alt="DBMS Lab Badge"/>
+  <img src="https://img.shields.io/badge/MCA-2nd%20Semester-green?style=for-the-badge" alt="MCA Badge"/>
+  <img src="https://img.shields.io/badge/MES%20College%20of%20Engineering-Kuttippuram-orange?style=for-the-badge" alt="MES Badge"/>
+</p>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/nihalshx/MCA-NETWORK-LAB?color=green)
-![GitHub](https://img.shields.io/badge/Author-Nihal%20N-blueviolet)
+<h1 align="center">📚 MCA-NETWORK-LAB🚀</h1>
+
 
 > **A curated collection of network programming and shell scripting lab assignments for the MCA 2nd Semester at MES College of Engineering, Kuttippuram.**
 
