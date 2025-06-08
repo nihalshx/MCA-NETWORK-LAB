@@ -1,6 +1,5 @@
 # 🚀 MCA-NETWORK-LAB
 
-![GitHub repo size](https://img.shields.io/github/repo-size/nihalshx/MCA-NETWORK-LAB?color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/nihalshx/MCA-NETWORK-LAB?color=green)
 ![GitHub](https://img.shields.io/badge/Author-Nihal%20N-blueviolet)
 
